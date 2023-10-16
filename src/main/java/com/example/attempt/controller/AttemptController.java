@@ -11,6 +11,6 @@ public class AttemptController {
     @GetMapping("/hello-world")
     @ResponseBody
     public String helloWorld() {
-        return "Attempt.";
+        return "Hey John.";
     }
 }
